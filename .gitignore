@@ -1,0 +1,7 @@
+# Runtime output of the benchmark scripts. Every number in these logs is also
+# in the .jsonl records, so they are regenerated on rerun but not committed.
+/tpu7x-sglang-jax/logs/
+/tpu7x-sglang-jax/tokenizer/
+/tpu7x-sglang-jax/results/*/*.log
+*.pid
+__pycache__/
